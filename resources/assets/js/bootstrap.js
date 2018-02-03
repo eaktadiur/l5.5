@@ -50,11 +50,11 @@ import Echo from 'laravel-echo'
 window.Echo = new Echo({
     broadcaster: 'socket.io',
     host: window.location.hostname + ':6001',
-    auth:{
-        headers:
-        {
-            'Authorization': 'Bearer e15f71143c59058c273b1fa27a1d0e17',
-            app_id: "e7a3c5e508fa196f"
-        }
-    }
+    // auth:{
+    //     headers:
+    //     {
+    //         'Authorization': 'Bearer e15f71143c59058c273b1fa27a1d0e17',
+    //         app_id: "e7a3c5e508fa196f"
+    //     }
+    // }
 });
